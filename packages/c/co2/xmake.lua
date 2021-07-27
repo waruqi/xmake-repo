@@ -1,4 +1,4 @@
-package("co")
+package("co2")
 
     set_homepage("https://github.com/idealvin/co")
     set_description("Yet another libco and more.")
