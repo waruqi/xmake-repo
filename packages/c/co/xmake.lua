@@ -7,7 +7,7 @@ package("co")
     add_urls("https://github.com/idealvin/co.git")
 
 --    add_versions("v2.0.0", "1bf687ebc08f9951869a111c56b90898b2c320e988dc86355ce17368f279e44d")
-    add_versions("v2.0.0+1", "d962c6f77680cfc3337d1fc718f5ccda04210bd0")
+    add_versions("v2.0.1+1", "d962c6f77680cfc3337d1fc718f5ccda04210bd0")
 
     if is_plat("windows") then
         -- disable shared library
