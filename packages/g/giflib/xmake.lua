@@ -3,7 +3,7 @@ package("giflib")
     set_homepage("https://sourceforge.net/projects/giflib/")
     set_description("A library for reading and writing gif images.")
     set_license("MIT")
-
+ 
     add_urls("https://jaist.dl.sourceforge.net/project/giflib/giflib-$(version).tar.gz")
     add_versions("5.2.1", "31da5562f44c5f15d63340a09a4fd62b48c45620cd302f77a6d9acf0077879bd")
  
