@@ -31,7 +31,7 @@ jobs:
       - name: Prepare
         shell: msys2 {0}
         run: |
-          git clone https://github.com/xmake-io/xmake.git --recurse-submodules -b dev
+          git clone https://github.com/xmake-io/xmake.git --recurse-submodules -b test
           cd xmake
           make build
           make install PREFIX=${{ matrix.prefix }}
