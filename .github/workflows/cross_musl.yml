@@ -1,6 +1,7 @@
 name: Cross (Musl)
 
 on:
+  push:
   pull_request:
     branches:
       - torch
