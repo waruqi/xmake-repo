@@ -12,7 +12,7 @@ package("faad2")
     if not is_plat("windows") then
         add_deps("autoconf", "automake", "libtool")
     end
-
+ 
     on_install("windows", function (package)
         if package:is_plat("windows") then
             local vs = import("core.tool.toolchain").load("msvc"):config("vs")

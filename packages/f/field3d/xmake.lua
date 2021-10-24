@@ -6,7 +6,7 @@ package("field3d")
 
     add_urls("https://github.com/imageworks/Field3D/archive/refs/tags/$(version).tar.gz")
     add_versions("v1.7.3", "b6168bc27abe0f5e9b8d01af7794b3268ae301ac72b753712df93125d51a0fd4")
-
+ 
     add_patches("v1.7.3", path.join(os.scriptdir(), "patches", "1.7.3", "msvc.patch"), "330d067c39f084218925667a420e24c38e13fcb1663623218b17ed616bb1ca0e")
 
     add_deps("boost", {configs = {regex = true, thread = true}})

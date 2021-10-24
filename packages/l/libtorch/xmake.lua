@@ -3,7 +3,7 @@ package("libtorch")
     set_homepage("https://pytorch.org/")
     set_description("An open source machine learning framework that accelerates the path from research prototyping to production deployment.")
     set_license("BSD-3-Clause")
-
+ 
     add_urls("https://github.com/pytorch/pytorch.git")
     add_versions("v1.8.0", "37c1f4a7fef115d719104e871d0cf39434aa9d56")
     add_versions("v1.8.1", "56b43f4fec1f76953f15a627694d4bba34588969")

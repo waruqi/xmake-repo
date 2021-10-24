@@ -4,7 +4,7 @@ package("meson")
     set_homepage("https://mesonbuild.com/")
     set_description("Fast and user friendly build system.")
     set_license("Apache-2.0")
-
+ 
     add_urls("https://github.com/mesonbuild/meson/releases/download/$(version)/meson-$(version).tar.gz",
              "https://github.com/mesonbuild/meson.git")
     add_versions("0.59.2", "13dee549a7ba758b7e33ce7719f28d1d337a98d10d378a4779ccc996f5a2fc49")

@@ -12,7 +12,7 @@ package("harfbuzz")
 
     add_configs("icu", {description = "Enable ICU library unicode functions.", default = false, type = "boolean"})
     add_configs("freetype", {description = "Enable freetype interop helpers.", default = true, type = "boolean"})
-
+ 
     add_deps("meson")
     add_includedirs("include", "include/harfbuzz")
     on_load("windows", "linux", "macosx", function (package)

@@ -7,7 +7,7 @@ package("matplotplusplus")
     add_urls("https://github.com/alandefreitas/matplotplusplus/archive/refs/tags/$(version).tar.gz",
              "https://github.com/alandefreitas/matplotplus.git")
     add_versions("v1.1.0", "5c3a1bdfee12f5c11fd194361040fe4760f57e334523ac125ec22b2cb03f27bb")
-
+ 
     local configdeps = {jpeg   = "libjpeg-turbo",
                         tiff   = "libtiff",
                         zlib   = "zlib",
