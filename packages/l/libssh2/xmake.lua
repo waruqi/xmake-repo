@@ -13,7 +13,7 @@ package("libssh2")
     if is_plat("linux") then
         add_deps("openssl")
     end
-
+ 
     on_install("macosx", "linux", function (package)
         local configs = {"-DBUILD_EXAMPLES=OFF", "-DBUILD_TESTING=OFF"}
         table.insert(configs, "-DCMAKE_BUILD_TYPE=" .. (package:debug() and "Debug" or "Release"))
