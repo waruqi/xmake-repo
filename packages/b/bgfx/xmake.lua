@@ -26,7 +26,7 @@ package("bgfx")
             package:add("links", lib .. suffix)
         end
     end)
-
+ 
     on_install("windows", "macosx", "linux", function (package)
         local bxdir = package:resourcefile("bx")
         local bimgdir = package:resourcefile("bimg")
