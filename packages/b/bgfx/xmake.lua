@@ -7,7 +7,7 @@ package("bgfx")
     add_urls("https://github.com/bkaradzic/bgfx.git")
     add_versions("7816", "5ecddbf4d51e2dda2a56ae8cafef4810e3a45d87")
 
-    add_resources("7816", "bx", "https://github.com/bkaradzic/bx.git", "51f25ba638b9cb35eb2ac078f842a4bed0746d56")
+    add_resources("7816", "bx", "https://github.com/bkaradzic/bx.git", "aa5090bbd8c39e84d483f4850a7d9ca7ff9241ed")
     add_resources("7816", "bimg", "https://github.com/bkaradzic/bimg.git", "8355d36befc90c1db82fca8e54f38bfb7eeb3530")
 
     if is_plat("windows") then
