@@ -3,7 +3,7 @@ name: Windows
 on:
   push:
     branches:
-      - dev
+      - bgfx
 
 jobs:
   build:
