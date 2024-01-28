@@ -15,7 +15,7 @@ package("libjpeg-turbo")
     add_versions("2.1.3",  "dbda0c685942aa3ea908496592491e5ec8160d2cf1ec9d5fd5470e50768e7859")
     add_versions("2.1.4",  "a78b05c0d8427a90eb5b4eb08af25309770c8379592bb0b8a863373128e6143f")
     add_versions("3.0.1",  "5b9bbca2b2a87c6632c821799438d358e27004ab528abf798533c15d50b39f82")
-
+  
     add_configs("jpeg", {description = "libjpeg API/ABI emulation target version.", default = "6", type = "string", values = {"6", "7", "8"}})
 
     if is_plat("android") then
