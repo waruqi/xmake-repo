@@ -1,9 +1,9 @@
 name: Linux
 
 on:
-  pull_request:
+  push:
     branches:
-      - dev
+      - wx5
 
 jobs:
   build:
