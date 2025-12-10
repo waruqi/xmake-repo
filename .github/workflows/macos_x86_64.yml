@@ -1,9 +1,9 @@
 name: macOS (x86_64)
 
 on:
-  pull_request:
+  push:
     branches:
-      - dev
+      - test
 
 jobs:
   build:
