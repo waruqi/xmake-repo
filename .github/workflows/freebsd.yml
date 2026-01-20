@@ -38,6 +38,6 @@ jobs:
             gmake install
             export XMAKE_ROOT=y
             cd -
-            xmake l ./scripts/test.lua -D -k ${{ matrix.kind }} -vD cmake
+            xmake l ./scripts/test.lua -D -k ${{ matrix.kind }} -vD "cmake >=3.17.2"
 
 
